@@ -7,11 +7,10 @@
         {
 
             $output_list = array();
+            $main_word = explode(" ", $input_word);
 
-            $input_list = implode(" ",$input_list);
 
-            if ($input_list == $input_word) {
-                echo explode(" ",$input_list);
+            if ($guess_word == $main_word) {
                 array_push($output_list, $input_list);
 
             }
