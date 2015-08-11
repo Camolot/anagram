@@ -10,7 +10,7 @@
 
   $app->get("/", function() use ($app) {
     return $app['twig']-render(anagram_form.html.twig)
-  })
+  });
 
 
 return $app;
