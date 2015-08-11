@@ -1,25 +1,44 @@
 
 
--------------Zero Case-----------------------
-what it does: It finds words with a matching or higher character count.
-Input word: rat
-Input list: rat, mouse, cat, star, be
-Output: rat, mouse, cat, star
+----------FIRST CASE--------
+WHAT IT DOES:It compares two simple letters that are equal and returns the match.
 
--------------------First Case-----------------
-What it does: It finds the same word.
-Input word: rat
-Input list: rat, mouse, cat, star, tar
-Output: rat
+INPUT WORD: a
+INPUT LIST: a
+OUTPUT LIST: ["a"]
 
----------------Second Case-------------------
-What it does: It finds the reverse of the word.
-Input word: rat
-Input list: star, mouse, cat, tar, rat
-Output: tar
+--------SECOND CASE--------
+WHAT IT DOES: It compares words with multiple letters and returns a match.  
 
--------------Third Case-------------------
-What it does: It finds words with matching letters.
-Input word: rat
-Input list: star, mouse, cat, tar, rat
-Output: star, tar, rat
+INPUT WORD: to
+INPUT LIST: to
+OUTPUT LIST: ["to"]
+
+--------THIRD CASE=---------
+WHAT IT DOES: It detects numeric characters and sends an error message instead of an input.
+
+INPUT WORD: t0
+INPUT LIST: to
+OUTPUT: Input is invalid; please input only letters.
+
+--------FOURTH CASE----------
+WHAT IT DOES: It compares the input words and displays an error message if no matches are found.
+
+INPUT WORD: be
+INPUT LIST: to
+OUTPUT: Sorry, no matches found.
+
+
+--------FIFTH CASE----------
+WHAT IT DOES: It compares input words and puts matching words into an array.
+
+INPUT WORD: be
+INPUT LIST: to, be
+OUTPUT: ["be"]
+
+--------SIXTH CASE----------
+WHAT IT DOES: It compares words and returns equal length words with all matching letters.
+
+INPUT WORD: rat
+INPUT LIST: tar, art
+OUTPUT: ["tar, art"]

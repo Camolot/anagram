@@ -3,17 +3,12 @@
     class AnagramGenerator
     {
 
-        function makeAnagramMatch($input_word)
+        function makeAnagramMatch($input_word, $input_list)
         {
-            $input_array_list = array();
+            $input_list = array();
             $output_anagram = array();
 
-            if (strlen($input_array_list) > strlen($input_word) {
-                
-
-
-
-            })
+         }
         }
 
 
