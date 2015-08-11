@@ -40,5 +40,12 @@ OUTPUT: ["be"]
 WHAT IT DOES: It compares words and returns equal length words with all matching letters.
 
 INPUT WORD: rat
-INPUT LIST: tar, art
+INPUT LIST: tar, art, tap
 OUTPUT: ["tar, art"]
+
+------SEVENTH CASE---------
+WHAT IT DOES: It finds anagram matches of mixed cases and returns the matching words in lowercase.
+
+INPUT WORD: rat
+INPUT LIST:rAt
+OUTPUT: ["rat"]

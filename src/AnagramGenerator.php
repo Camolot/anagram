@@ -6,7 +6,11 @@
         function makeAnagramMatch($input_word, $input_list)
         {
             $input_list = array();
-            $output_anagram = array();
+            $input_word = array();
+            $output_list = array();
+
+            if ($input_list = $input_word) {
+                            }
 
          }
         }
